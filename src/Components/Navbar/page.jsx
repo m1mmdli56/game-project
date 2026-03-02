@@ -38,7 +38,7 @@ const Navbar = () => {
                 Hesablar
               </Link>
               <Link
-                href="/top-up"
+                href="/balance"
                 className="hover:text-red-400 transition-colors duration-200"
               >
                 Balans
