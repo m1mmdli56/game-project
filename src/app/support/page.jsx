@@ -127,6 +127,7 @@ const Support = () => {
             <a
               href="https://wa.me/numaran"
               target="_blank"
+              rel="noopener noreferrer"
               className="flex flex-col items-center group"
             >
               <MessageCircle className="w-8 h-8 mb-1 text-gray-400 group-hover:text-green-500 group-hover:scale-110 transition-all" />
