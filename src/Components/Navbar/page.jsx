@@ -3,13 +3,13 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ShoppingCart, Menu, X } from "lucide-react"; // İkonları əlavə etdik
-import { useCart } from "@/context/CartContext"; // Səbət məlumatını götürürük
+import { ShoppingCart, Menu, X } from "lucide-react";
+import { useCart } from "@/context/CartContext";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const { cartItems } = useCart(); // Səbətdəki məhsulları buraya çəkirik
+  const { cartItems } = useCart();
 
   const isActive = (path) =>
     pathname === path ? "text-red-500" : "hover:text-red-400 text-gray-300";
@@ -44,6 +44,13 @@ const Navbar = () => {
               >
                 Hesablar
               </Link>
+              {/* Game Card Əlavəsi */}
+              <Link
+                href="/GameCard"
+                className={`${isActive("/GameCard")} transition-colors duration-200`}
+              >
+                Game Cards
+              </Link>
               <Link
                 href="/balance"
                 className={`${isActive("/balance")} transition-colors duration-200`}
@@ -61,7 +68,6 @@ const Navbar = () => {
 
           {/* Sağ tərəf: Səbət və Auth */}
           <div className="hidden md:flex items-center space-x-6">
-            {/* Canlı Səbət İkonu */}
             <Link href="/cart" className="relative group p-2">
               <ShoppingCart className="w-6 h-6 text-gray-300 group-hover:text-red-500 transition-colors" />
 
@@ -114,6 +120,14 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
           >
             Hesablar
+          </Link>
+          {/* Mobil Game Card Əlavəsi */}
+          <Link
+            href="/GameCard"
+            className="block py-3 hover:bg-red-500/10"
+            onClick={() => setIsOpen(false)}
+          >
+            Game Cards
           </Link>
           <Link
             href="/balance"
