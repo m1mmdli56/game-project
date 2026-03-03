@@ -8,7 +8,7 @@ const AuthPage = () => {
   return (
     <div className="bg-[#0f172a] min-h-screen flex items-center justify-center p-4">
       {/* Arxa fon işıq effekti */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-red-600/10 blur-[120px] rounded-full"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 bg-red-600/10 blur-[120px] rounded-full"></div>
 
       <div className="bg-[#1e293b] w-full max-w-md rounded-3xl border border-gray-800 shadow-2xl overflow-hidden relative z-10">
         {/* Seçim Düymələri (Tabs) */}
