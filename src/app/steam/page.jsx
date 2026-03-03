@@ -44,7 +44,7 @@ const WalletPage = () => {
   ];
 
   return (
-    <div className="bg-[#0f172a] min-h-screen text-white pb-20">
+    <div className="bg-[#0f172a] min-h-screen text-white text-center pb-20">
       {/* Başlıq Hissəsi */}
       <div className="bg-[#1e293b] py-16 border-b border-red-500/20">
         <div className="max-w-5xl mx-auto px-4">
