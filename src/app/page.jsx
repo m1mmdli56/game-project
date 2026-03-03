@@ -7,7 +7,7 @@ const popularGames = [
     title: "EA Sports FC 24",
     category: "Futbol / İdman",
     price: "79.99 AZN",
-    image: "https://cdn.akamai.steamstatic.com/steam/apps/1811260/header.jpg",
+    image: "EA.jpg",
     discount: "20%",
   },
   {
@@ -15,7 +15,7 @@ const popularGames = [
     title: "Cyberpunk 2077",
     category: "RPG / Open World",
     price: "45.00 AZN",
-    image: "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg",
+    image: "Cyberpunk.jpg",
     discount: null,
   },
   {
@@ -23,7 +23,7 @@ const popularGames = [
     title: "Elden Ring",
     category: "Souls-like / Action",
     price: "55.50 AZN",
-    image: "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg",
+    image: "Elden.jpg",
     discount: "15%",
   },
   {
@@ -31,7 +31,7 @@ const popularGames = [
     title: "Hogwarts Legacy",
     category: "Məcarə / Sehr",
     price: "65.00 AZN",
-    image: "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg",
+    image: "Hogwarts.jpg",
     discount: null,
   },
 ];
