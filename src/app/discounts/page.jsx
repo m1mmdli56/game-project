@@ -40,7 +40,7 @@ const DealsPage = () => {
   return (
     <div className="bg-[#0f172a] min-h-screen text-white pb-20">
       {/* Hero Section */}
-      <div className="bg-gradient-to-b from-red-900/30 to-[#0f172a] py-20 border-b border-red-500/10 relative overflow-hidden">
+      <div className="bg-linear-to-b from-red-900/30 to-[#0f172a] py-20 border-b border-red-500/10 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 bg-red-600 text-white px-4 py-1 rounded-full text-xs font-black uppercase tracking-widest mb-6 animate-pulse">
             <Timer size={14} /> Məhdud Zaman
@@ -54,7 +54,7 @@ const DealsPage = () => {
           </p>
         </div>
         {/* Arxa fon işığı */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-red-600/10 rounded-full blur-[120px]"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 bg-red-600/10 rounded-full blur-[120px]"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 mt-12">
