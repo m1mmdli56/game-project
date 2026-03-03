@@ -61,7 +61,7 @@ const WalletPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Sol: Balans Kartı */}
           <div className="md:col-span-1 space-y-6">
-            <div className="bg-gradient-to-br from-red-600 to-red-800 p-8 rounded-[2.5rem] shadow-2xl relative overflow-hidden">
+            <div className="bg-linear-to-br from-red-600 to-red-800 p-8 rounded-[2.5rem] shadow-2xl relative overflow-hidden">
               <div className="relative z-10">
                 <Wallet className="mb-4 opacity-50" size={32} />
                 <p className="text-red-100 text-sm font-bold uppercase tracking-wider">
