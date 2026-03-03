@@ -23,11 +23,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0b0f1a] text-white`}
       >
         <CartProvider>
           <Navbar />
-          {children}
+          {/* Main teqi əlavə etmək məsləhətdir ki, Footer aşağıda qalsın */}
+          <main className="min-h-screen">{children}</main>
           <Footer />
         </CartProvider>
       </body>
